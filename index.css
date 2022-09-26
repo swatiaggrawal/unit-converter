@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    background-color:black;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.main{
+    position: absolute;
+    width: 550px;
+    height: 729px;
+    left: 697px;
+    top: 125px;
+    display: flex;
+    justify-content: center;
+
+background: #1F2937;
+}
+.enter{
+    position: absolute;
+    width: 550px;
+    height: 285px;
+    left: 0px;
+    top: 0px;
+
+    background: #6943FF;
+}
+.enter p{
+    position: absolute;
+    width: 448.4px;
+    height: 38px;
+    left: 51px;
+    top: 33px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    /* identical to box height, or 136% */
+    
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+    color: #FFFFFF;
+}
+.enter input{
+    
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 117px;
+    height: 83px;
+    left: 217px;
+    top: 101px;
+
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    background: #6943FF;
+}
+.enter button{
+    position: absolute;
+    width: 117px;
+    height: 42px;
+    left: 217px;
+    top: 209px;
+
+    background: #FFFFFF;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    border:0px;
+}
+.length{
+    position: absolute;
+    width: 500px;
+    height: 108.57px;
+    left: 25px;
+    top: 321px;
+
+    background: #273549;
+    border-radius: 4.68077px 0px 0px 0px;
+
+}
+.volume{
+    position: absolute;
+    width: 500px;
+    height: 108.57px;
+    left: 25px;
+    top: 453px;
+
+    background: #273549;
+    border-radius: 4.68077px 0px 0px 0px;
+}
+.mass{
+    position: absolute;
+    width: 500px;
+    height: 108.57px;
+    left: 25px;
+    top: 585px;
+
+    background: #273549;
+    border-radius: 4.68077px 0px 0px 0px;
+}
+
+.length p{
+    position: absolute;
+    width: 346px;
+    height: 25px;
+    left: 77px;
+    top: 31px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+
+    text-align: center;
+
+    color: #CCC1FF;
+}
+.volume p{
+    position: absolute;
+    width: 346px;
+    height: 25px;
+    left: 77px;
+    top: 31px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+
+    text-align: center;
+
+    color: #CCC1FF;
+}
+.mass p{
+    
+    position: absolute;
+    width: 346px;
+    height: 25px;
+    left: 77px;
+    top: 31px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+
+    text-align: center;
+
+    color: #CCC1FF;
+}
