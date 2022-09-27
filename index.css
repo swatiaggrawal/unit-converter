@@ -3,39 +3,42 @@ body{
     background-color:black;
     font-family: 'Inter';
     font-style: normal;
+   
 }
 .main{
     position: absolute;
-    width: 550px;
-    height: 729px;
-    left: 697px;
-    top: 125px;
+    width: 400px;
+    height: 500px;
+    left: 440px;
+    top: 50px;
     display: flex;
     justify-content: center;
+    border-radius: 25px;
 
 background: #1F2937;
 }
 .enter{
     position: absolute;
-    width: 550px;
-    height: 285px;
+    width: 400px;
+    height: 150px;
     left: 0px;
     top: 0px;
 
     background: #6943FF;
+    border-radius: 25px 25px 0px 0px;
 }
 .enter p{
     position: absolute;
-    width: 448.4px;
-    height: 38px;
-    left: 51px;
-    top: 33px;
+    width: 300px;
+    height: 10px;
+    left: 50px;
+    top: 10px;
     
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 800;
-    font-size: 28px;
-    line-height: 38px;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 3px;
     /* identical to box height, or 136% */
     
     text-align: center;
@@ -48,10 +51,10 @@ background: #1F2937;
     box-sizing: border-box;
 
     position: absolute;
-    width: 117px;
-    height: 83px;
-    left: 217px;
-    top: 101px;
+    width: 90px;
+    height: 50px;
+    left: 150px;
+    top: 48px;
 
     border: 2px solid #B295FF;
     border-radius: 5px;
@@ -59,10 +62,10 @@ background: #1F2937;
 }
 .enter button{
     position: absolute;
-    width: 117px;
-    height: 42px;
-    left: 217px;
-    top: 209px;
+    width: 90px;
+    height: 30px;
+    left: 150px;
+    top: 110px;
 
     background: #FFFFFF;
     /* shadow/sm */
@@ -73,47 +76,50 @@ background: #1F2937;
 }
 .length{
     position: absolute;
-    width: 500px;
-    height: 108.57px;
+    width: 350px;
+    height: 90px;
     left: 25px;
-    top: 321px;
+    top: 170px;
 
     background: #273549;
     border-radius: 4.68077px 0px 0px 0px;
+    border-radius: 10px;
 
 }
 .volume{
     position: absolute;
-    width: 500px;
-    height: 108.57px;
+    width: 350px;
+    height: 90px;
     left: 25px;
-    top: 453px;
+    top: 280px;
 
     background: #273549;
     border-radius: 4.68077px 0px 0px 0px;
+    border-radius: 10px;
 }
 .mass{
     position: absolute;
-    width: 500px;
-    height: 108.57px;
+    width: 350px;
+    height: 90px;
     left: 25px;
-    top: 585px;
+    top: 390px;
 
     background: #273549;
     border-radius: 4.68077px 0px 0px 0px;
+    border-radius: 10px;
 }
 
 .length p{
     position: absolute;
-    width: 346px;
+    width: 300px;
     height: 25px;
-    left: 77px;
-    top: 31px;
+    left: 25px;
+    top: 10px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 20px;
     /* or 100% */
 
@@ -123,15 +129,15 @@ background: #1F2937;
 }
 .volume p{
     position: absolute;
-    width: 346px;
+    width: 300px;
     height: 25px;
-    left: 77px;
-    top: 31px;
+    left: 25px;
+    top: 10px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 20px;
     /* or 100% */
 
@@ -142,15 +148,15 @@ background: #1F2937;
 .mass p{
     
     position: absolute;
-    width: 346px;
+    width: 300px;
     height: 25px;
-    left: 77px;
-    top: 31px;
+    left: 25px;
+    top: 10px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 20px;
     /* or 100% */
 
