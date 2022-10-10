@@ -59,6 +59,23 @@ background: #1F2937;
     border: 2px solid #B295FF;
     border-radius: 5px;
     background: #6943FF;
+    position: absolute;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 42% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.enter input:focus{
+    outline:none;
 }
 .enter button{
     position: absolute;
