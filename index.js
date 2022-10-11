@@ -3,7 +3,8 @@ const renderVolume=document.getElementById("render-vol")
 const renderMass=document.getElementById("render-mass")
 let lenMeter, lenFeet, volLiter, volGallon, massGrams, masspounds;
 
-
+const modeBtn=document.getElementById("mode-btn")
+const themeSelect=document.getElementById("theme-select")
 const inputEl=document.getElementById("input-measurement")
 const inputBtn=document.getElementById("input-btn")
 inputBtn.addEventListener("click",function (){
@@ -24,3 +25,14 @@ function render(lenMeter, lenFeet, volLiter, volGallon, massGrams, masspounds){
     
 
 }
+
+modeBtn.addEventListener("click",function(){
+    if(themeSelect.getAttribute("href")=="index.css"){
+        themeSelect.href="lightmode-index.css"
+        modeBtn.innerHTML=`<i class="fa-solid fa-sun">`
+    }
+    else{
+        themeSelect.href="index.css"
+        modeBtn.innerHTML=`<i class="fa-solid fa-moon">`
+    }
+})

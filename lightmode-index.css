@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 body{
-    background-color:black;
+    background-color:rgb(200, 196, 211);
     font-family: 'Inter';
     font-style: normal;
    
@@ -15,7 +15,7 @@ body{
     justify-content: center;
     border-radius: 25px;
 
-background: #1F2937;
+background: #F4F4F4;
 }
 .enter{
     position: absolute;
@@ -98,7 +98,7 @@ background: #1F2937;
     left: 25px;
     top: 170px;
 
-    background: #273549;
+    background: #FFFFFF;
     border-radius: 4.68077px 0px 0px 0px;
     border-radius: 10px;
 
@@ -110,7 +110,7 @@ background: #1F2937;
     left: 25px;
     top: 280px;
 
-    background: #273549;
+    background: #FFFFFF;
     border-radius: 4.68077px 0px 0px 0px;
     border-radius: 10px;
 }
@@ -121,7 +121,7 @@ background: #1F2937;
     left: 25px;
     top: 390px;
 
-    background: #273549;
+    background: #FFFFFF;
     border-radius: 4.68077px 0px 0px 0px;
     border-radius: 10px;
 }
@@ -142,7 +142,7 @@ background: #1F2937;
 
     text-align: center;
 
-    color: #CCC1FF;
+    color: #5A537B;;
 }
 .volume p{
     position: absolute;
@@ -160,7 +160,7 @@ background: #1F2937;
 
     text-align: center;
 
-    color: #CCC1FF;
+    color: #5A537B;
 }
 .mass p{
     
@@ -179,7 +179,7 @@ background: #1F2937;
 
     text-align: center;
 
-    color: #CCC1FF;
+    color: #5A537B;
 }
 #render-len{
     position: absolute;
@@ -197,7 +197,7 @@ background: #1F2937;
 
     text-align: center;
 
-    color: #FFFFFF;
+    color: #353535;
 
 }
 #render-vol{
@@ -219,7 +219,7 @@ background: #1F2937;
 
     text-align: center;
 
-    color: #FFFFFF;
+    color: #353535;
 
 }
 #render-mass{
@@ -239,20 +239,21 @@ background: #1F2937;
     
     text-align: center;
     
-    color: #FFFFFF;
+    color: #353535;
 }
 #mode-btn{
     width: 50px;
     height: 26px;
-    background-color:#1F2937;
+    background-color:#FFFFFF;
     
     border-radius:50px;
+    border-color: #FFFFFF;
     align-items: center;
+    border: 0px;
     justify-content: space-between;
     padding: 5px;
     position: relative;
-    color: #FFFFFF;
-    border: 0px;
+    color: #FFFFFF
     
 }
 .fa-sun{
