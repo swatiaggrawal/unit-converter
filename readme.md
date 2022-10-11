@@ -4,8 +4,8 @@
 A unit converter using Javascript which supports light and dark mode.
 <br>
 
-## Check Website here
-[Live](https://swatiaggrawal.github.io/unit-converter/])
+- Live Site URL: [@GitHub](https://swatiaggrawal.github.io/unit-converter)
+
 
 
 ###  Light Mode
