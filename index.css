@@ -181,3 +181,63 @@ background: #1F2937;
 
     color: #CCC1FF;
 }
+#render-len{
+    position: absolute;
+    width: 346px;
+    height: 25px;
+    left: 10px;
+    top: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+   
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+#render-vol{
+    
+    position: absolute;
+    width: 346px;
+    height: 25px;
+    left: 10px;
+    top: 40px;
+
+    /* text-sm/leading-5/font-normal */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+   
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+#render-mass{
+    position: absolute;
+    width: 346px;
+    height: 25px;
+    left: 10px;
+    top: 40px;
+    
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 143% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
